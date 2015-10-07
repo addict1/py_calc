@@ -6,7 +6,9 @@ units = """[1] Unit 1
 """
 
 unit1 = """[1] Lesson 1
-[2] Lesson 2"""
+[2] Lesson 2
+[3] Lesson 3
+"""
 
 unit1_1 = """[1] Get Midpoint from Equation
 [2] Solve Systems of Equations

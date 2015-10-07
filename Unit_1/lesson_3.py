@@ -1,5 +1,18 @@
 def get_equation_from_intercepts():
-    pass
+    # get raw input
+    x = raw_input("Input X intercept >> ")
+    y = raw_input("Input Y intercept >> ")
+    # parse raw input
+    x1 = float(x)
+    y1 = 0
+    x2 = 0
+    y2 = float(y)
+    # get slope
+    part1 = y2 - y1
+    part2 = x2 - x1
+    slope = part1 / part2
+    # print out final result
+    print "y=" + str(slope) + "x+" + str(y)
 
 def y_intercept_to_parrallel():
     pass
