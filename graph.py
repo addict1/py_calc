@@ -30,17 +30,17 @@ if demand1 == "1":
         elif demand3 == "2":
             lesson_2.check_for_pro()
 
-    if demmand2 == "3":
+    if demand2 == "3":
 
         from Unit_1 import lesson_3
         print unit1_3
-        demmand3 = raw_input(query)
+        demand3 = raw_input(query)
 
-        if demmand3 == "1":
+        if demand3 == "1":
             lesson_3.get_equation_from_intercepts()
-        elif demmand3 == "2":
+        elif demand3 == "2":
             lesson_2.get_equation_from_points()
-        elif demmand3 == "3":
+        elif demand3 == "3":
             lesson_3.y_intercept_to_parrallel()
-        elif demmand3 == "4":
+        elif demand3 == "4":
             lesson_3.get_perpendicular_bisector_from_points()

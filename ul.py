@@ -20,3 +20,4 @@ unit1_3 = """[1] Find Equation of Line with intercepts
 [2] Get Equation of Line from Points
 [3] Know Y-Intercept and Equation to Find Parrallel
 [4] Get Perpendicular Bisector from Two Points
+"""
