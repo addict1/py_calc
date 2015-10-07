@@ -24,8 +24,8 @@ def get_equation_from_points():
 
 def check_for_pro():
     # get info
-    m1 = float(raw_input("Input slope from form Y = Mx + B"))
-    m2 = float(raw_input("Input slope from form Y = Mx + B"))
+    m1 = float(raw_input("Input slope from form Y = Mx + B >> "))
+    m2 = float(raw_input("Input slope from form Y = Mx + B >> "))
     # Check for Perpendicular
     perp = -1 * ( 1 / m1)
     if m2 == perp:

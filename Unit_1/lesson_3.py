@@ -15,7 +15,13 @@ def get_equation_from_intercepts():
     print "y=" + str(slope) + "x+" + str(y)
 
 def y_intercept_to_parrallel():
-    pass
+    # get raw input
+    y_intercept = raw_input("Input desired Y intercept >> ")
+    equation1 = raw_input("Input M from form Y = Mx + B >> ")
+    # parse input
+    slope = float(equation1)
+    # get new y-intercept
+    print "y=" + str(slope) + "x+" + str(y_intercept)
 
 def get_perpendicular_bisector_from_points():
     pass
