@@ -26,3 +26,10 @@ unit1_3 = """[1] Find Equation of Line with intercepts
 
 unit1_4 = """We're sorry, but nothing was to be done in this section.\nYou can do all of this, I belibe in you!!
 """
+
+unit1_5 = """We're sorry, but nothing could be done in this lesson.\nWhat we can provide is this table that might be userful
+i^1 = i
+i^2 = -1
+i^3 = -i
+i^4 = 1
+..."""
