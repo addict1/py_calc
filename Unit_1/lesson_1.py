@@ -20,3 +20,10 @@ def solve_sys_of_equations():
     # organize info
     equation1 = equation1.split(',')
     equation2 = equation2.split(',')
+    # assign independent variables
+    x1 = equation1[0]
+    x2 = equation2[0]
+    y1 = equation1[1]
+    y2 = equation2[1]
+    c1 = equation1[2]
+    c2 = equation2[2]
