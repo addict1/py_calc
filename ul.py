@@ -23,3 +23,6 @@ unit1_3 = """[1] Find Equation of Line with intercepts
 [3] Know Y-Intercept and Equation to Find Parrallel
 [4] Get Perpendicular Bisector from Two Points
 """
+
+unit1_4 = """We're sorry, but nothing was to be done in this section.\nYou can do all of this, I belibe in you!!
+"""

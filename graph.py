@@ -44,3 +44,7 @@ if demand1 == "1":
             lesson_3.y_intercept_to_parrallel()
         elif demand3 == "4":
             lesson_3.get_perpendicular_bisector_from_points()
+
+    if demand2 == "4":
+
+        print unit1_4
