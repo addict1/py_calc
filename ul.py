@@ -11,6 +11,5 @@ unit1_1 = """[1] Get Midpoint from Equation
 """
 
 unit1_2 = """[1] Get Equation of Line from Points
-[2] Check for Parrallel
-[3] Check for Perpendicular
+[2] Check for Comparative Properties of two Equations
 """

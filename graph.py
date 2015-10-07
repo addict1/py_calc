@@ -28,6 +28,4 @@ if demand1 == "1":
         if demand3 == "1":
             lesson_2.get_equation_from_points()
         elif demand3 == "2":
-            lesson_2.check_for_par()
-        elif demand3 == "3":
-            lesson_2.check_for_per()
+            lesson_2.check_for_pro()

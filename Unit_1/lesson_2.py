@@ -22,9 +22,16 @@ def get_equation_from_points():
     # print out final results
     print "y = " + str(slope) + "x + " + str(b)
 
-def check_for_par():
+def check_for_pro():
     # get info
-    #equation1 = raw_input()
-
-def check_for_per():
-    pass
+    m1 = float(raw_input("Input slope from form Y = Mx + B"))
+    m2 = float(raw_input("Input slope from form Y = Mx + B"))
+    # Check for Perpendicular
+    perp = -1 * ( 1 / m1)
+    if m2 == perp:
+        print "These are perpendicular."
+    # Check for Parrallel
+    elif m1 == m2:
+        print "These are parrallel."
+    else:
+        print "These are neither."
