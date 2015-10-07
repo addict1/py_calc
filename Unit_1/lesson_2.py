@@ -24,4 +24,7 @@ def get_equation_from_points():
 
 def check_for_par():
     # get info
-    equation1 = raw_input()
+    #equation1 = raw_input()
+
+def check_for_per():
+    pass

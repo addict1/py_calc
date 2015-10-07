@@ -1,31 +1,33 @@
-print """[1] Unit 1
-[2] Unit 2
-[3] Unit 3
-"""
+from ul import *
+
+print units
 demand1 = raw_input("Pick number >> ")
 
 if demand1 == "1":
-    print """[1] Lesson 1
-[2] Lesson 2"""
+
+    print unit1
     demand2 = raw_input("Pick number >> ")
 
     if demand2 == "1":
-        print """[1] Get Midpoint from Equation
-[2] Solve Systems of Equations
-"""
-        demand3 = raw_input("Pick number >> ")
+
         from Unit_1 import lesson_1
+        print unit1_1
+        demand3 = raw_input("Pick number >> ")
+
         if demand3 == "1":
             lesson_1.get_midpoint()
         elif demand3 == '2':
             lesson_1.solve_sys_of_equations()
-    if demmand2 == "2":
-        print """[1] Get Equation of Line from Points
-[2] Check for Parrallel
-[3] Check for Perpendicular"""
+
+    if demand2 == "2":
+
         from Unit_1 import lesson_2
+        print unit1_2
         demand3 = raw_input("Pick number >> ")
-        if demmand3 == "1":
+
+        if demand3 == "1":
             lesson_2.get_equation_from_points()
-        if demmand3 == "2":
+        elif demand3 == "2":
             lesson_2.check_for_par()
+        elif demand3 == "3":
+            lesson_2.check_for_per()
