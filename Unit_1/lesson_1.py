@@ -14,9 +14,9 @@ def get_midpoint():
 def solve_sys_of_equations():
     # get info
     print "First Equation : "
-    equation1 = raw_input("Input A, B, and C separated by commas in Ax + By + C >> ")
+    equation1 = raw_input("Input A, B, and C separated by commas in Ax + By = C >> ")
     print "Second Equation"
-    equation2 = raw_input("Input A, B, and C separated by commas in Ax + By + C >> ")
+    equation2 = raw_input("Input A, B, and C separated by commas in Ax + By = C >> ")
     # organize info
     equation1 = equation1.split(',')
     equation2 = equation2.split(',')
