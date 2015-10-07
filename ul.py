@@ -33,3 +33,7 @@ i^2 = -1
 i^3 = -i
 i^4 = 1
 ..."""
+
+unit1_6 = """[1] Solve Quadratic Equations from Polynomials
+[2] Solve Quadratic Equations from Factors
+"""

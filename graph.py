@@ -52,3 +52,14 @@ if demand1 == "1":
     if demand2 == "5":
 
         print unit1_5
+
+    if demand2 == "6":
+
+        from Unit_1 import lesson_6
+        print unit1_6
+        demand3 = raw_input(query)
+
+        if demand3 == "1":
+            lesson_6.solve_quadratic()
+        if demand3 == "2":
+            lesson_6.solve_quadratic_from_factors()
