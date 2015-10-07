@@ -41,15 +41,11 @@ def get_perpendicular_bisector_from_points():
     # get midpoint of Points
     x_mid = (x1 + x2) / 2
     y_mid = (y1 + y2) / 2
-    print str(x_mid)
-    print str(y_mid)
     # get reciprocal of slope
     slope = -1 * (1 / slope)
     # plugin point to get y intercept
-    mx = slope * x_mid
-    if mx == 0:
-        b = y_mid
-    elif mx != 0:
-        b = y_mid / mx
+    part_1 = slope * x_mid
+    part_2 = y_mid - part_1
+    b = part_2
     # print out result
     print "y = " + str(slope) + "x + " + str(b)
