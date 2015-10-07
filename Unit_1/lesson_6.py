@@ -24,4 +24,12 @@ def solve_quadratic():
 def solve_quadratic_from_factors():
     # get raw input
     factor1 = raw_input("Input A and B separated with commas from first factor ( Ax + B ) >> ")
-    factor1 = raw_input("Input A and B separated with commas from second factor ( Ax + B ) >> ")
+    factor2 = raw_input("Input A and B separated with commas from second factor ( Ax + B ) >> ")
+    # Format user Input
+    factor1 = float(factor1.split(","))
+    factor2 = float(factor2.split(","))
+    x1 = factor1[0]
+    b1 = factor1[1]
+    x2 = factor2[0]
+    b2 = factor2[1]
+    
